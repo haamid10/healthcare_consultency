@@ -1,5 +1,4 @@
 // import { useState } from "react"
-import { Link} from "react-router-dom"
 const Navbar = () => {
     // const [active, setActive] = useState(false)
     
@@ -11,7 +10,8 @@ const Navbar = () => {
         </div>
         <nav className=" flex gap-12">
          <a href="/">Home</a>  
-         <a href="/about">about</a>  
+         <a href="/about">about</a> 
+         <a href="/contact">Contact</a> 
             {/* <li>About</li>
             <li>Contact</li>
             <li>Awareness</li> */}
