@@ -17,7 +17,7 @@ const About = () => {
    
 
 
-    <div className="relative bg-white overflow-hidden mt-44">
+    <div className="relative bg-white overflow-hidden mt-12">
       <div
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
         aria-hidden="true"
@@ -43,11 +43,12 @@ const About = () => {
         />
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        <div className="mx-auto max-w-none lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-primary sm:text-6xl">Work with us</h2>
           <p className="mt-6 text-lg leading-8 text-gray-900">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-            fugiat veniam occaecat fugiat aliqua.
+          Telemedicine is revolutionizing the way healthcare is delivered, making it more accessible and convenient for patients around the world. This innovative approach to medical care involves the use of telecommunications technology to provide remote clinical services, allowing patients to consult with healthcare professionals from the comfort of their own homes.
+
+One of the key benefits of telemedicine is its ability to overcome geographical barriers. In rural or remote areas where access to healthcare facilities may be limited, telemedicine bridges the gap by connecting patients with doctors located in urban centers. This ensures that individuals living in underserved areas can receive timely and quality medical care without having to travel long distances.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

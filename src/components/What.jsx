@@ -2,9 +2,10 @@ import { Link } from "react-router-dom"
 import doctor2 from "../assets/doctor2.png"
 import illipse from "../assets/Ellipse 6.png"
 import card2 from "../assets/avail doctor.png"
-const Services = () => {
+const What = () => {
   return (
-    <div className=" p-12">
+    <div>
+         <div className=" p-12">
         <div className="w-fit flex  items-center  mt-12 mb-2 ">
       
 
@@ -21,7 +22,7 @@ support throughout your journey to healthier living.
       </div>
      <div className=" flex w-fit ">
              <img className="relative top-32 w-[38rem]  space-x-reverse" src={illipse} alt="" />
-             <img className=" absolute top-[11.4rem] right-[12rem] w-[28rem] " src={doctor2} alt="" />
+             <img className=" absolute top-[19.4rem] right-[12rem] w-[28rem] " src={doctor2} alt="" />
      </div> 
 
      <img className=" shadow-md rounded-lg " src={card2} alt="" />
@@ -37,7 +38,8 @@ support throughout your journey to healthier living.
       <Link className="p-4 bg-primary text-lg font-semibold rounded-2xl text-white " to="/doctors">See the Doctors</Link>
         </div>
     </div>
+    </div>
   )
 }
 
-export default Services
+export default What

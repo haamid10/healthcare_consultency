@@ -8,6 +8,7 @@ import Star  from "../assets/Star.png"
 import doctor2 from "../assets/doctor2.png"
 import illipse from "../assets/Ellipse 6.png"
 import card2 from "../assets/avail doctor.png"
+import { Link } from "react-router-dom"
 // import Image from "../assets/image 3.png"
 const Hero = () => {
   const stats = [
@@ -19,7 +20,7 @@ const Hero = () => {
     <div className="w-fit">
       {/*  */}
 
-      <div className="w-fit flex  items-center  ">
+      <div className="w-fit flex  items-center  mb-8">
       
 
            <div className=" w-[60rem] flex flex-col items-start mt-32">
@@ -33,14 +34,14 @@ const Hero = () => {
            </div>
           <div className=" flex w-fit ">
                   <img className="relative top-32 w-[38rem]  space-x-reverse" src={circle} alt="" />
-                  <img className=" absolute top-[3.4rem] w-[38rem] " src={doctor} alt="" />
+                  <img className=" absolute top-[11.4rem] w-[38rem] " src={doctor} alt="" />
           </div> 
 
           <img className=" shadow-md rounded-lg" src={card} alt="" />
        
         
         </div>
-    <button className=" bg-primary p-2  ml-12 mt- 8 rounded-md text-white">contact Us</button>
+    <Link to="/contact" className=" bg-primary p-2  ml-12 mt-12 rounded-md text-white">contact Us</Link>
 
 
 
@@ -109,7 +110,7 @@ support throughout your journey to healthier living.
       </div>
      <div className=" flex w-fit ">
              <img className="relative top-32 w-[38rem]  space-x-reverse" src={illipse} alt="" />
-             <img className=" absolute top-[68.8rem] right-[12rem] w-[28rem] " src={doctor2} alt="" />
+             <img className=" absolute top-[77.8rem] right-[12rem] w-[28rem] " src={doctor2} alt="" />
      </div> 
 
      <img className=" shadow-md rounded-lg " src={card2} alt="" />
