@@ -8,11 +8,13 @@ import Footer from "./Footer"
 import Contact from "./Contact"
 import Doctors from "../Pages/Doctors"
 import Blogs from "../Pages/Blogs"
+import Header from "./Header"
 const Main = () => {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
     <BrowserRouter >
+    <Header/>
         <Routes>
         <Route path="/" element={<Hero/>}/>
         <Route path="/about" element={<About/>} />
